@@ -12,7 +12,7 @@ export function FiltersProvider({ children }: any) {
 
   const [filters, setFilters] = useState({
     category: "all",
-    minPrice: 500,
+    minPrice: 250,
   });
 
   return (
